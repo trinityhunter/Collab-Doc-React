@@ -1,0 +1,23 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding-top: 60px; /* Adjust this value if needed for the navbar */
+    box-sizing: border-box;
+  }
+  
+  .editor-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .editor-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

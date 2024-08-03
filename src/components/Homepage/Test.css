@@ -1,0 +1,126 @@
+.group-chat-container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    border: 1px solid #ccc;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  
+  .group-chat-top-bar {
+    flex: 0 0 50px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  }
+
+  #username-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 300px;
+  }
+  
+  .username-page-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .username-submit {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .group-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .group-chat-message {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  
+  .group-chat-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .group-chat-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group-chat-sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .group-chat-text {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group-chat-bottom-bar {
+    flex: 0 0 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-top: 1px solid #ccc;
+  }
+  
+  .group-chat-bottom-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .group-chat-bottom-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 20%;
+  }
+  
+  .group-chat-bottom-bar button:hover {
+    background-color: #0056b3;
+  }
+  

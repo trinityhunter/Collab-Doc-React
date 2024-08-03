@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Editor from "./components/Editor/Editor";
+import { useDispatch, useSelector } from 'react-redux'
+import AllRoutes from "./AllRoutes";
+import Homepage from "./components/Homepage/Homepage";
+import Test from "./components/Homepage/Test";
+
 
 function App() {
+
+    const User = useSelector((state) => (state.currentUserReducer))
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Navbar />
+        <AllRoutes />
+      </Router>
     </div>
   );
 }

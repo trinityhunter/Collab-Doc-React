@@ -1,0 +1,38 @@
+.user-profile {
+    padding: 20px;
+  }
+  
+  .messages {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sent {
+    background-color: #dcf8c6;
+    text-align: right;
+  }
+  
+  .received {
+    background-color: #fff;
+  }
+  
+  .new-message {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .new-message input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .new-message button {
+    padding: 10px;
+  }
+  
